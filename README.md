@@ -4,7 +4,27 @@
 
 Initialize application: `sbt run`
 
-Call API `curl -i http://localhost:8080/hello/world`
+Create a hut
+```shell
+curl -v -H "Content-Type: application/json" \
+     -X POST \
+     http://localhost:8080/huts \
+     -d '{"name":"River Hut"}'
+```
+
+Update a hut
+```shell
+curl -v -H "Content-Type: application/json" \
+     -X PUT \
+     http://localhost:8080/huts \
+     -d '{"id":"123","name":"Mountain Hut"}'
+```
+
+You can get hut `curl -i http://localhost:8080/huts/123`
+
+And finally delete a hut `curl -v -X DELETE http://localhost:8080/huts/123`
+
+Hello World? See at the [hello-world](hello-world) branch
 
 ### Reference
 
