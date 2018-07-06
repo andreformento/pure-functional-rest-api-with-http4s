@@ -1,2 +1,3 @@
-# pure-functional-rest-api-with-http4s
-A REST API with http4s and Cats IO Monad
+# A REST API with http4s and Cats IO Monad
+
+Reference: https://medium.com/@alandevlin7/pure-functional-rest-api-with-http4s-7a38782a2a99
