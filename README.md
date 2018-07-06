@@ -24,6 +24,8 @@ You can get hut `curl -i http://localhost:8080/huts/123`
 
 And finally delete a hut `curl -v -X DELETE http://localhost:8080/huts/123`
 
+Test with `sbt test`
+
 Hello World? See at the [hello-world](hello-world) branch
 
 ### Reference
